@@ -1,0 +1,14 @@
+X:\Stevo\Documents\Visual Studio Projects\CodeChallenge\CodeChallenge\bin\Debug\netcoreapp2.1\CodeChallenge.deps.json
+X:\Stevo\Documents\Visual Studio Projects\CodeChallenge\CodeChallenge\bin\Debug\netcoreapp2.1\CodeChallenge.runtimeconfig.json
+X:\Stevo\Documents\Visual Studio Projects\CodeChallenge\CodeChallenge\bin\Debug\netcoreapp2.1\CodeChallenge.runtimeconfig.dev.json
+X:\Stevo\Documents\Visual Studio Projects\CodeChallenge\CodeChallenge\bin\Debug\netcoreapp2.1\CodeChallenge.dll
+X:\Stevo\Documents\Visual Studio Projects\CodeChallenge\CodeChallenge\bin\Debug\netcoreapp2.1\CodeChallenge.pdb
+X:\Stevo\Documents\Visual Studio Projects\CodeChallenge\CodeChallenge\obj\Debug\netcoreapp2.1\CodeChallenge.csprojAssemblyReference.cache
+X:\Stevo\Documents\Visual Studio Projects\CodeChallenge\CodeChallenge\obj\Debug\netcoreapp2.1\CodeChallenge.csproj.CoreCompileInputs.cache
+X:\Stevo\Documents\Visual Studio Projects\CodeChallenge\CodeChallenge\obj\Debug\netcoreapp2.1\CodeChallenge.RazorAssemblyInfo.cache
+X:\Stevo\Documents\Visual Studio Projects\CodeChallenge\CodeChallenge\obj\Debug\netcoreapp2.1\CodeChallenge.RazorAssemblyInfo.cs
+X:\Stevo\Documents\Visual Studio Projects\CodeChallenge\CodeChallenge\obj\Debug\netcoreapp2.1\CodeChallenge.AssemblyInfoInputs.cache
+X:\Stevo\Documents\Visual Studio Projects\CodeChallenge\CodeChallenge\obj\Debug\netcoreapp2.1\CodeChallenge.AssemblyInfo.cs
+X:\Stevo\Documents\Visual Studio Projects\CodeChallenge\CodeChallenge\obj\Debug\netcoreapp2.1\CodeChallenge.RazorTargetAssemblyInfo.cache
+X:\Stevo\Documents\Visual Studio Projects\CodeChallenge\CodeChallenge\obj\Debug\netcoreapp2.1\CodeChallenge.dll
+X:\Stevo\Documents\Visual Studio Projects\CodeChallenge\CodeChallenge\obj\Debug\netcoreapp2.1\CodeChallenge.pdb

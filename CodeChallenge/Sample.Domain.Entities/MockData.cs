@@ -11,7 +11,7 @@ namespace CodeChallenge.Sample.Domain.Entities
         public async Task<Data> GetData()
         {
             await Task.Delay(100);
-            return new Data { HelloWorld = "Hello World!" };
+            return new Data { Text = "Hello World!" };
         }
     }
 }

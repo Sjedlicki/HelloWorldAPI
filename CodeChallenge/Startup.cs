@@ -1,29 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using CodeChallenge.Sample.Domain.Abstract;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc.Controllers;
-using Microsoft.AspNetCore.Mvc.ViewComponents;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 using System.ComponentModel;
-using CodeChallenge.Sample.Domain.Entities;
+using CodeChallenge.Domain.Entities;
 
 namespace CodeChallenge
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
         private Container container = new Container();
 
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddDbContext<DataContext>();
             services.AddMvc();
             IntegrateSimpleInjector(services);
         }
@@ -41,9 +40,11 @@ namespace CodeChallenge
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseMvc();
+
             app.Run(async (context) =>
             {
-                await mockData.GetData();
+                await context.Response.WriteAsync("Did not route request");
             });
         }
     }
